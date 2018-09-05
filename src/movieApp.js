@@ -3,8 +3,8 @@ import SearchMovie from "./searchMovie";
 import SearchResults from "./searchResults";
 
 export default class MovieApp extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
             searchTerm:'',
             searchResults : []  
